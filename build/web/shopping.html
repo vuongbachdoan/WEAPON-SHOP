@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Weapon Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-slate-800">
+
+        <!--NAVBAR-->
+        <nav class="relative bg-slate-950 shadow dark:bg-gray-800">
+            <div class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
+                <div class="flex items-center justify-between">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 fill-stone-400">
+                        <path fill-rule="evenodd" d="M8.478 1.6a.75.75 0 01.273 1.025 3.72 3.72 0 00-.425 1.122c.058.057.118.114.18.168A4.491 4.491 0 0112 2.25c1.413 0 2.673.651 3.497 1.668.06-.054.12-.11.178-.167a3.717 3.717 0 00-.426-1.126.75.75 0 111.298-.75 5.22 5.22 0 01.671 2.045.75.75 0 01-.187.582c-.241.27-.505.52-.787.749a4.495 4.495 0 01.216 2.1c-.106.792-.753 1.295-1.417 1.403-.182.03-.364.057-.547.081.152.227.273.476.359.741a23.122 23.122 0 003.832-.802 23.241 23.241 0 00-.345-2.634.75.75 0 011.474-.28c.21 1.115.348 2.256.404 3.418a.75.75 0 01-.516.749c-1.527.5-3.119.855-4.76 1.05-.074.38-.22.735-.423 1.05a24.61 24.61 0 015.943 1.358.75.75 0 01.492.75 24.665 24.665 0 01-1.189 6.25.75.75 0 01-1.425-.47 23.141 23.141 0 001.077-5.307c-.5-.168-1.009-.32-1.524-.454.068.234.104.484.104.746 0 3.956-2.521 7.5-6 7.5-3.478 0-6-3.544-6-7.5 0-.262.037-.511.104-.746-.514.134-1.022.286-1.522.454a23.14 23.14 0 001.077 5.308.75.75 0 01-1.425.468 24.663 24.663 0 01-1.19-6.25.75.75 0 01.493-.749 24.593 24.593 0 014.964-1.24h.01c.321-.046.644-.085.969-.118a2.982 2.982 0 01-.424-1.05 24.614 24.614 0 01-4.76-1.05.75.75 0 01-.516-.75c.057-1.161.194-2.302.405-3.417a.75.75 0 011.474.28c-.164.862-.28 1.74-.345 2.634 1.237.37 2.517.641 3.832.802.085-.265.207-.514.359-.74a18.732 18.732 0 01-.547-.082c-.664-.108-1.311-.611-1.417-1.403a4.535 4.535 0 01.217-2.103 6.788 6.788 0 01-.788-.751.75.75 0 01-.187-.583 5.22 5.22 0 01.67-2.04.75.75 0 011.026-.273z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+
+                    <!-- Mobile menu button -->
+                    <div class="flex lg:hidden">
+                        <button type="button" class="text-gray-500 dark:text-cyan-500 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                            </svg>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center">
+                    <div class="flex flex-col md:flex-row md:mx-6">
+                        <a class="my-2 text-cyan-500 transition-colors duration-300 transform dark:text-gray-200 hover:text-cyan-300 dark:hover:text-blue-400 md:mx-4 md:my-0" href="admin.jsp">Home</a>
+                        <a class="my-2 text-cyan-500 transition-colors duration-300 transform dark:text-gray-200 hover:text-cyan-300 dark:hover:text-blue-400 md:mx-4 md:my-0" href="MainController?action=ShoppingPage">Shop</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--END NAVBAR--> 
+
+        <h1 class="my-16 text-white text-center text-4xl font-bold">Bought whatever you want&nbsp;...&nbsp; go to prison.</h1>
+
+        <div class="container px-6 py-10 mx-auto">
+            <div class="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
+                <div class="max-w-xs overflow-hidden bg-slate-950 rounded-lg shadow-lg dark:bg-gray-800">
+                    <div class="px-4 py-2">
+                        <h1 class="text-xl font-bold text-white uppercase dark:text-white">M16</h1>
+                        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">The M16 rifle is a lightweight, 5.56 mm caliber, air-cooled, gas-operated, magazine-fed rifle, with a rotating bolt, actuated by direct impingement gas operation.</p>
+                    </div>
+
+                    <img class="object-cover w-full h-48 mt-2" src="https://images.pexels.com/photos/889709/pexels-photo-889709.jpeg?auto=compress&cs=tinysrgb&w=600" alt="RIFLE">
+
+                    <div class="flex items-center justify-between px-4 py-4 bg-slate-950">
+                        <div>
+                            <h1 class="text-lg font-bold text-white mb-2">$&nbsp;1857.48</h1>
+                            <div class="flex">
+                                <h1 class="text-white">Quantity: &nbsp;</h1>
+                                <select name="cmbQuantity" class="rounded px-2 bg-slate-800 border-0 focus:outline-none focus:border-0 text-white text-right">
+                                    <option value="1 text-right">1</option>
+                                    <option value="2 text-right">2</option>
+                                    <option value="3 text-right">3</option>
+                                    <option value="4 text-right">4</option>
+                                    <option value="5 text-right">5</option>
+                                    <option value="10 text-right">10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-amber-600 rounded hover:bg-amber-500 focus:bg-amber-500 focus:outline-none">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs overflow-hidden bg-slate-950 rounded-lg shadow-lg dark:bg-gray-800">
+                    <div class="px-4 py-2">
+                        <h1 class="text-xl font-bold text-white uppercase dark:text-white">M16</h1>
+                        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">The M16 rifle is a lightweight, 5.56 mm caliber, air-cooled, gas-operated, magazine-fed rifle, with a rotating bolt, actuated by direct impingement gas operation.</p>
+                    </div>
+
+                    <img class="object-cover w-full h-48 mt-2" src="https://images.pexels.com/photos/889709/pexels-photo-889709.jpeg?auto=compress&cs=tinysrgb&w=600" alt="RIFLE">
+
+                    <div class="flex items-center justify-between px-4 py-4 bg-slate-950">
+                        <div>
+                            <h1 class="text-lg font-bold text-white mb-2">$&nbsp;1857.48</h1>
+                            <div class="flex">
+                                <h1 class="text-white">Quantity: &nbsp;</h1>
+                                <select name="cmbQuantity" class="rounded px-2 bg-slate-800 border-0 focus:outline-none focus:border-0 text-white text-right">
+                                    <option value="1 text-right">1</option>
+                                    <option value="2 text-right">2</option>
+                                    <option value="3 text-right">3</option>
+                                    <option value="4 text-right">4</option>
+                                    <option value="5 text-right">5</option>
+                                    <option value="10 text-right">10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-amber-600 rounded hover:bg-amber-500 focus:bg-amber-500 focus:outline-none">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--        <form action="MainController" method="POST">
+                    <select name="cmbWeapon">
+                        <option value="T01-Rifle-2000">Rifle-2000$</option>
+                        <option value="T02-Short Gun-1000">Short Gun-1000$</option>
+                        <option value="T03-Long Gun-3000">Long Gun-3000$</option>
+                        <option value="T04-Knife-3000">Knife-500$</option>
+                    </select>
+                    <select name="cmbQuantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                    </select>
+                    <input type="submit" name="action" value="Add"/>            
+                    <input type="submit" name="action" value="View"/>
+                </form>-->
+    </body>
+</html>
